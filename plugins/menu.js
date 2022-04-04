@@ -11,7 +11,7 @@ const chats = conn.chats.all()
 const groups = chats.filter(v => v.jid.endsWith('g.us'))
 const defaultMenu = {
   before: `
-╭─────═[ *INFO PENGGUNA* ]═─────⋆
+╭─────═[ *INFO USER* ]═─────⋆
 │╭───────────────···
 ┴│▸ *Name:* %name
 ⬡│▸ *Premium:* %prems
@@ -269,7 +269,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 ┬
 ├━━━━━━━━━━━━━━━━┈─⋆
 │ ▸ *Author :* Nurutomo
-┴ ▸ *Owner :* Letta
+┴ ▸ *Owner :* Fachri
 ✧
 ┬ 📌 𝗣𝗶𝗻𝗻𝗲𝗱 :
 │ Tolong jangan dispam ya biar ga delay
@@ -282,8 +282,8 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
           "sections": [
                             {
                                 "rows": [{
-                                         "title": "[📊] Status",
-                                         "description": "Status Kanna Bot",
+                                         "title": "[📊] Status Bot",
+                                         "description": "Status Fachri Bot",
                                          "rowId": ".botstat"
                                     }, {
                                          "title": "[⚡] Speed",
@@ -295,10 +295,10 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                                          "rowId": ".info"
                                     }, {
                                          "title": "[🎐] Creator",
-                                         "description": "Kontak Creator ku ^~^",
+                                         "description": "Kontak Creator ku ><",
                                          "rowId": ".nowner"
                        }],
-                    "title": "✧───────────────[ Stats ]───────────────✧"
+                    "title": "✧─────────────[ Tentang Bot Dan Lainnya ]─────────────✧"
                 }, {
                   "rows": [{
                   "title": "Menu 01 |🧾|",
@@ -421,7 +421,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                   "description": "Owner",
                   "rowId": ".? owner"
                 }],
-                                "title": "✧───────────────[ Menu ]───────────────✧"
+                                "title": "✧──────────────[ All Menu ]──────────────✧"
                                 }, {
                                 "rows": [{
                                 "title": "[🗳️] Donasi",
@@ -444,7 +444,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                                 "description": "Terima kasih banyak untuk user yang telah berpartisipasi dalam bot",
                                 "rowId": ".? thnks"
                                 }],
-                                "title": "✧────────────────[ Info ]────────────────✧"
+                                "title": "✧───────────────[ Info Bot ]───────────────✧"
                             }
                         ], "contextInfo": 
                          { "stanzaId": m.key.id,
@@ -532,7 +532,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
-    // await conn.send3ButtonLoc(m.chat, await (await fetch(fla + teks)).buffer(), text.trim(), '🎮 Ƙαɴɴα вσт', 'Owner', '.owner', 'Donasi', '.donasi', 'Rules', '.infobot', m)
+    // await conn.send3ButtonLoc(m.chat, await (await fetch(fla + teks)).buffer(), text.trim(), '🎮 Fachri вσтz', 'Owner', '.owner', 'Donasi', '.donasi', 'Rules', '.infobot', m)
     await conn.send3ButtonLoc(m.chat, logo, '──────────[ *DASHBOARD* ]──────────', text.trim(), 'Owner', '.nowner', 'Donasi', '.donasi', 'Rules', '.rules', m)
     let nama = await conn.getName(m.sender)
     let fkon = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: '16504228206@s.whatsapp.net' } : {}) }, message: { contactMessage: { displayName: `${name}`, vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:${name}\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}}
