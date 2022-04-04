@@ -10,24 +10,24 @@ let handler = async function (m, { text, usedPrefix, command }) {
           "title": '*Verify*',
           "description": '📮 Anda sudah terdaftar! mau daftar ulang?',
           "footerText": global.botdate,
-          "buttonText": "Kanna BOT",
+          "buttonText": "Fachri Botz",
           "listType": "SINGLE_SELECT",
           "sections": [
                             {
                                 "rows": [{
                                          "title": `LIST MENU`,
-                                         "description": "List Menu Kanna BOT",
+                                         "description": "List Menu Fachri Botz",
                                          "rowId": ".menu"
                                     }, {
                                          "title": `MY OWNER`,
-                                         "description": "List Owner Kanna BOT", 
+                                         "description": "List Owner Fachri Botz", 
                                          "rowId": ".nowner"
                                     }, {
                                          "title": `UNREGISTER`,
                                          "description": "Daftar Ulang",
                                          "rowId": '.unreg ' + sn
                        }],
-                    "title": "Created By ℓettα - sαmα ♡"
+                    "title": "Created By Fachri ♡"
                   }
                         ], "contextInfo": 
                          { "stanzaId": m.key.id,
@@ -155,7 +155,7 @@ conn.relayWAMessage(conn.prepareMessageFromContent(m.chat, {
                                          "description": "Profile Anda!",
                                          "rowId": '.pp'
                        }],
-                    "title": "Created By ℓettα - sαmα ♡"
+                    "title": "Created By Fachri ♡"
                   }
                         ], "contextInfo": 
                          { "stanzaId": m.key.id,
