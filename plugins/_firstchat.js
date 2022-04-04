@@ -15,9 +15,9 @@ let username = conn.getName(who)
     let user = global.db.data.users[m.sender]
     if (new Date - user.pc < 86400000) return // setiap 24 jam sekali
     await this.send3ButtonLoc(m.chat, logo, `
-*hai, ${ucapan()}*
+*hai, ${ucapan()}* Kak
 
-${user.banned ? 'kamu dibanned' : 'Saya adalah KANNABOT, salah satu bot Whatsapp. harap tidak spam/telpon/minta save kemonor ini. Ada yang bisa saya bantu? (ㆁωㆁ)'}
+${user.banned ? 'kamu dibanned' : 'Saya adalah *FACHRIBOTZ*, salah satu bot Whatsapp. harap tidak spam/telpon/minta save kemonor ini. Ada yang bisa saya bantu? ><.'}
 `.trim(), wm, user.register ? '⋮☰ Menu' : 'Verify', user.register ? '.menu' : `.daftar ${username}.13`, 'Rules', '.rules', 'Owner', '.owner', m)
     user.pc = new Date * 1
 }
