@@ -73,19 +73,19 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.packname = '🌙 Ƙαnnα вσт\nwa.me/6283143393763\n\n\n𝙱𝚢 𝙻𝚎𝚝𝚝𝚊 あ\n\n\nFollow IG: @ppiowy_\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n.'
-global.author = '۰ ⸼'
+global.packname = '🌙 Fachri вσтz\nwa.me/6283143393763\n\n\n𝙱𝚢 𝙻𝚎𝚝𝚝𝚊 あ\n\n\nFollow IG: @sfdesign_id\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n.'
+global.author = 'Bot Whatsapp'
 
 // silakan di ganti klo mau
-global.botwm = `🎮 Ƙαnnα вσт`//UBAH JADI NAMAMU
-global.wm = `꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘Ƙαnnα - chαn˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷`
+global.botwm = `🎮 Fachri вσтz`//UBAH JADI NAMAMU
+global.wm = `꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘Fachri - вσтz˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷`
 global.botdate = `❏ ${wktu}\n❏ ${week} ${date}`
-global.imagebot = `https://telegra.ph/file/793b6accf3758f092742a.jpg`
+global.imagebot = `https://i.ibb.co/y6TRVt4/virgam.png`
 global.logo = fs.readFileSync('./src/logo3.jpg')
-global.thumb1 = 'https://telegra.ph/file/5a882b8558fd1d2bd03fa.jpg'
-global.thumb2 = 'https://telegra.ph/file/f87047ec6e5f0d4a9ea91.jpg'
-global.thumb3 = 'https://telegra.ph/file/88edbb01051b397574def.jpg'
-global.thumb4 = 'https://telegra.ph/file/7957630a57078c5ec0400.jpg'
+global.thumb1 = 'https://i.ibb.co/y6TRVt4/virgam.png'
+global.thumb2 = 'https://i.ibb.co/y6TRVt4/virgam.png'
+global.thumb3 = 'https://i.ibb.co/y6TRVt4/virgam.png'
+global.thumb4 = 'https://i.ibb.co/y6TRVt4/virgam.png'
 global.logoowner = fs.readFileSync('./src/owner.jpg')
 global.wait = '```[ ! ] wait...```'
 global.rpg = '[ ! ] Fitur Rpg Dimatikan\nKetik *!enable* *rpg* untuk menggunakan fitur ini!\nKalo Mau main Disini aja\nhttps://chat.whatsapp.com/Hjr3H7l9iC8F2deP0cv6GT'
