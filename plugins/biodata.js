@@ -11,7 +11,7 @@ let logo = global.logoowner
 *📈 Status* : Pelajar
 
 *───────[ SOSIAL MEDIA ]───────*
-*📷 instagran* : @ppiowy_
+*📷 instagran* : instagram.com/@sfdesign_id
 *🇫  Facebook* : facebok.com/SaefulFachri
 *🏮 Channel Youtube* : youtube.com/c/SaefulFahri
 `
